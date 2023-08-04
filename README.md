@@ -1,5 +1,5 @@
 # Publishing
 ### Migrations
 ```php
-php artisan migrate
+php artisan vendor:publish --tag="laravel-activitylog-migrations"
 ```
