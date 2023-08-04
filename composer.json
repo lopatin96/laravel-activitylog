@@ -1,0 +1,31 @@
+{
+  "name": "lopatin96/laravel-activitylog",
+  "description": "Laravel activitylog",
+  "autoload": {
+    "psr-4": {
+      "Atin\\LaravelActivitylog\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Atin\\LaravelActivitylog\\ActivitylogProvider"
+      ]
+    }
+  },
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Vladyslav Lopatin",
+      "email": "ilopatin3@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.1",
+    "spatie/laravel-activitylog": "^4.7"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^8.0"
+  }
+}
