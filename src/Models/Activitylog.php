@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 use Atin\LaravelNovaBadges\Traits\HasNovaBadges;
 
 
-class ActivityLog extends Model
+class Activitylog extends Model
 {
     use HasNovaBadges, HasFactory;
 
