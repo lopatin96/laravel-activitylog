@@ -5,10 +5,13 @@ namespace Atin\LaravelActivitylog\Models;
 use App\Models\User;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Atin\LaravelNovaBadges\Traits\HasNovaBadges;
 
 
 class ActivityLog extends Model
 {
+    use HasNovaBadges, HasFactory;
+
     protected $table = 'activity_log';
 
     public function user()

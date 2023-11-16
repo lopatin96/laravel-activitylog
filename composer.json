@@ -23,7 +23,8 @@
   ],
   "require": {
     "php": ">=8.1",
-    "spatie/laravel-activitylog": "^4.7"
+    "spatie/laravel-activitylog": "^4.7",
+    "lopatin96/laravel-nova-badges": "^1.0"
   },
   "require-dev": {
     "orchestra/testbench": "^8.0"
