@@ -1,6 +1,6 @@
 <?php
 
-namespace Atin\LaravelSubscription\Traits;
+namespace Atin\LaravelActivitylog\Traits;
 
 use Atin\LaravelActivitylog\Models\Activitylog;
 
