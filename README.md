@@ -11,6 +11,9 @@ class User extends Authenticatable
     use HasActivityLogs, …
 ```
 
+### Console
+
+
 # Publishing
 ### Migrations
 ```php
