@@ -2,7 +2,7 @@
 
 namespace Atin\LaravelActivitylog\Console;
 
-use App\Models\Activitylog;
+use Atin\LaravelActivitylog\Models\Activitylog;
 
 class DeleteTooOldActivitylog
 {
