@@ -3,7 +3,6 @@
 namespace Atin\LaravelActivitylog\Console;
 
 use App\Models\Activitylog;
-use function App\Console\now;
 
 class DeleteTooOldActivitylog
 {
