@@ -10,8 +10,7 @@ class DeleteTooOldActivitylog
     {
         $dateToDelete = now()->subDays(180);
 
-        Activitylog::withTrashed()
-            ->whereDate('created_at', '<', $dateToDelete)
+        Activitylog::whereDate('created_at', '<', $dateToDelete)
             ->delete();
     }
 }
